@@ -1,0 +1,42 @@
+<body class="coverimage">
+
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand"></h3>
+            <!--nav>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav-->
+          </div>
+        </div>
+
+        <div class="inner cover">
+          <h1 class="cover-heading logo">The Distance</h1>
+          <p class="lead logo">A Site for Cycling and Running Enthusiast</p>
+          <p class="lead">
+            <a href="#/main" ui-sref="main" class="btn btn-lg btn-default logo">Roads</a>
+          </p>
+        </div>
+
+        <div class="mastfoot">
+          <div class="inner">
+            <p>Designed by: <a href="/#">Chad Jerome Elder</a></p>
+            <!--p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p!-->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</body>

@@ -2,13 +2,13 @@ var app = angular.module('thedistance', ['ui.router']);
   console.log(app);
 app.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
+  .state('/', {
+    url: '/',
+    templateUrl: 'views/cover.html'
+  })
   .state('main', {
     url: '/main',
     templateUrl: 'views/main.html'
-  })
-  .state('page1', {
-    url: '/page1',
-    templateUrl: 'static/page1.html'
   })
   .state('page2', {
   url: '/page2',
@@ -19,5 +19,5 @@ app.config(function($stateProvider, $urlRouterProvider) {
   templateUrl: 'static/page3.html'
   });
 
-  $urlRouterProvider.otherwise('/main');
+  $urlRouterProvider.otherwise('/');
 });
