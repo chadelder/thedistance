@@ -1,6 +1,6 @@
 body {
   padding-top: 50px;
-  background-color: #e6f3ff;
+  background-color: #ccccff;
 }
 .starter-template {
   padding: 40px 15px;
@@ -8,11 +8,39 @@ body {
 }
 
 .navbar-inverse {
-    background-color: #003366;
+    background-color: #000080;
     border-color: #003366;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: white;
-    background-color: #003366;
+    background-color: black;
+}
+
+.shoe {
+  margin-left: -65px;
+  width: 75px;
+  height: 75px;;
+  border-radius: 300px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+
+.logo {
+  margin-left: 20px;
+  margin-top: -40px;
+  font-family: fertigo;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.cyclingshoe {
+  margin-left: 172px;
+  margin-top: -90px;
+  width: 75px;
+  height: 75px;
+  border-radius: 300px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 }
